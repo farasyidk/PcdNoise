@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10px"
+            android:text="Citra Awal"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:src="@drawable/tac_mahal"
+            android:layout_width="700px"
+            android:layout_height="400px"
+            android:layout_gravity="center" />
+
+        <SeekBar
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/seekbar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvseekbar"
+            android:layout_gravity="center"
+            android:text="0"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10px"
+            android:textStyle="bold"
+            android:text="Citra Hasil"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="700px"
+            android:layout_height="400px"
+            android:layout_gravity="center" />
+
+
+
+            <Button
+                android:id="@+id/btnadd"
+                android:layout_width="200px"
+                android:layout_height="90px"
+                android:layout_marginLeft="550px"
+                android:background="#ff75"
+                android:text="Add"
+                android:textColor="#fff"/>
+
+    </LinearLayout>
+
+</LinearLayout>
